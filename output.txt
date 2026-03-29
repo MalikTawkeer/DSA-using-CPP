@@ -1,4 +1,2 @@
-Enter the number of rows: 
-*
-**
-***
+11
+22
