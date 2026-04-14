@@ -361,6 +361,24 @@ void printPattern19(int n)
     }
 }
 
+void printPattern20(int n)
+{
+    for (int i = 0; i < n * 2 - 1; i++)
+    {
+        for (int j = 0; j < n * 2 - 1; j++)
+        {
+            int top = i;
+            int left = j;
+            int right = (2 * n - 2) - j;
+            int bottom = (2 * n - 2) - i;
+
+            cout << (n - min(min(top, bottom), min(left, right)));
+        }
+
+        cout << endl;
+    }
+}
+
 int main()
 {
     // printPattern1(5);
@@ -381,7 +399,8 @@ int main()
     // printPattern15(5);
     // printPattern16(5);
     // printPattern18(5);
-    printPattern19(4);
+    // printPattern19(4);
+    printPattern20(4);
 
     return 0;
 }
