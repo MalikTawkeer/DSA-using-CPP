@@ -1,2 +1,10 @@
-5
-1 2 3 4 5
+9
+a b c d a b e f c
+7
+a
+b
+c
+d
+e
+f
+p
