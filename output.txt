@@ -1,2 +1,1 @@
-Minimum frequency: 1
-Maximum frequency: 4
+0 11 12 22 25 64 
